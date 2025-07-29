@@ -98,7 +98,6 @@ function App() {
               </ul>
             </article>
 
-            {/* Project 3 */}
             <article>
               <h3>Library Management System</h3>
               <p><strong>Tech Stack:</strong> Node.js, Express.js, MongoDB, EJS, MVC</p>
