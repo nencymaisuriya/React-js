@@ -212,21 +212,6 @@ h1 {
   flex-shrink: 0;
 }
 
-@media print {
-  .print-btn {
-    display: none;
-  }
-  .resume {
-    box-shadow: none;
-    border-radius: 0;
-  }
-
-  section h2 {
-  margin-bottom: 15px;
-  font-size: 24px;
-  color: #333;
-}
-
 article {
   margin-bottom: 20px;
 }
