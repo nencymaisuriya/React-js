@@ -34,14 +34,3 @@ This project demonstrates **state management**, **conditional button disabling**
 
 ---
 
-## 📂 Project Structure
-shopping-counter-app/
-├── public/
-│ ├── css
-│ │ ├── App.css # Styling
-│ ├── index.html
-├── src/
-│ ├── App.jsx # Main component
-│ ├── main.jsx # React entry point
-├── package.json
-├── README.md
