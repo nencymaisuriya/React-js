@@ -1,69 +1,48 @@
-# React + TypeScript + Vite
+# 🪔 Ganpati Booking / Registration Form  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features  
+- Collects details: **Name, Phone, Email, Address, Date/Time, Number of People, Notes**.  
+- **Image upload with live preview**.  
+- Saves entries in **localStorage** (no backend needed).  
+- View and Delete entries easily.  
+- Simple, responsive **UI with CSS**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots  
 
-## Expanding the ESLint configuration
+### Form Example  
+![Form Screenshot](../Ganpati-App/public/img.png)  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Table Example  
+![Table Screenshot](./public/table.png)  
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 How to Run Locally  
+1. Download or clone this repository.  
+2. Keep all files (`index.html`, `styles.css`, `script.js`) in the same folder.  
+3. Open `index.html` in your browser.  
+4. Fill in the form and click **Submit** — your entry will appear in the list below.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📌 Use Cases  
+- Ganpati arrival event registration (society, temple, or village).  
+- RSVP system for community functions.  
+- Attendance/visitor tracking for cultural programs.  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔮 Future Enhancements  
+- Backend (Node.js/Express + MongoDB) integration.  
+- Email/SMS notifications (Nodemailer, Twilio).  
+- Admin dashboard with **edit, filter, search** options.  
+- OTP/Email verification for security.  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📜 License  
+
+MIT License  
+
+
